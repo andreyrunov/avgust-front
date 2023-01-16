@@ -1,0 +1,64 @@
+@import './utils/fonts/fonts';
+@import './utils/modules/base';
+@import './utils/modules/first-screen';
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	height: 100vh;
+}
+
+html {
+	font-family: 'SF Pro Display';
+	font-weight: 400;
+	min-height: 100%;
+	font-size: 16;
+	line-height: 22.4px;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.page {
+	max-width: 1920px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('../img/first-screen/image 30.png') center no-repeat;
+	-webkit-background-size: none;
+	background-size: cover;
+	background-position: center;
+	&__main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 1600px;
+	}
+}
+
+.container {
+	width: 100%;
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+// body {
+// 	font-size: 16px;
+// 	font-family: sans-serif;
+// 	color: #212121;
+// }
+
+// .page {
+// 	display: flex;
+// }
