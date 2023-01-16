@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    &__container {
+        display: flex;
+        &__wrapper{
+            display: flex;
+        }
+    
+        &__photo {
+            display: flex;
+        }
+        &__wrapper {
+            display: flex;
+            &__text {
+                display: flex;
+                flex-direction: column;
+                &-block {
+                    display: flex;
+                }
+            }
+            &__benefits {
+                display: flex;
+            }
+        }
+    }
+
+}

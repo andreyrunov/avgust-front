@@ -18,7 +18,8 @@
 
 .header {
 	display: flex;
-	position: absolute;
+	// position: absolute;
+	// position: fixed;
 	flex-direction: row;
 	width: 1600px;
 	@media (max-width: 1600px) {
@@ -210,7 +211,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		position: absolute;
+		// position: absolute;
 		width: 470px;
 		height: 200px;
 
