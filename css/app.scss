@@ -2,6 +2,7 @@
 @import './utils/modules/base';
 @import './utils/modules/first-screen';
 @import './utils/modules/about';
+@import './utils/modules/map';
 
 *,
 *::before,
@@ -18,6 +19,11 @@ body {
 	height: 100vh;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+}
+
 html {
 	font-family: 'SF Pro Display';
 	font-weight: 400;
@@ -28,8 +34,9 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+
 .page {
-	max-width: 1920px;
+	max-width: 2400px;
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -45,6 +52,7 @@ html {
 		align-items: center;
 		width: 1600px;
 	}
+	
 }
 
 .container {
