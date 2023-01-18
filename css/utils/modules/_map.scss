@@ -94,6 +94,9 @@
 
 		&__map {
 			margin-top: 60px;
+            // @media (max-width: 1920px) {
+			// 	width: 1200px;
+			// }
 			@media (max-width: 780px) {
 				margin-top: 50px;
 			}
